@@ -51,7 +51,7 @@ public class PetClinicIntegrationTests {
 
 	@Test
 	voice contextLoads() {
-		assertEquals(2,1)
+		assertEquals(2,1);
 	}
 
 	@Test
