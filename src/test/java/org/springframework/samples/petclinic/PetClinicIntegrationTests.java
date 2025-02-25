@@ -50,7 +50,7 @@ public class PetClinicIntegrationTests {
 	}
 
 	@Test
-	voice contextLoads() {
+	void contextLoads() {
 		assertEquals(2,1);
 	}
 
