@@ -48,6 +48,11 @@ public class PetClinicIntegrationTests {
 		vets.findAll();
 		vets.findAll(); // served from cache
 	}
+	
+	@Test
+	void testContextLoads() {
+		assertEquals(2, 1);
+	}
 
 	@Test
 	void testOwnerDetails() {
